@@ -1,0 +1,102 @@
+{% block sidebar %}
+<div class="wrapper">
+  <div class="sidebar" data-background-color="white" data-active-color="danger">
+<div class="sidebar-wrapper">
+      <div class="logo">
+          <a href="http://www.creative-tim.com" class="simple-text">
+          {% if user%}
+              Bienvenue {{user.username}} !
+          {% else %}
+            Bienvenue !
+          {% endif %}
+          </a>
+      </div>
+
+      <ul class="nav">
+        {% if path == 'Dashboard' %}
+          <li class="active">
+        {% else %}
+          <li>
+        {% endif %}
+
+              <a href="/dashboard">
+                  <i class="ti-panel"></i>
+                  <p>Dashboard</p>
+              </a>
+          </li >
+          {% if path == 'User Profile' %}
+            <li class="active">
+          {% else %}
+            <li>
+          {% endif %}
+
+              <a href="/user">
+                  <i class="ti-user"></i>
+                  <p>User Profile</p>
+              </a>
+          </li>
+          {% if path == 'Table List' %}
+            <li class="active">
+          {% else %}
+            <li>
+          {% endif %}
+
+              <a href="/table">
+                  <i class="ti-view-list-alt"></i>
+                  <p>Table List</p>
+              </a>
+          </li>
+          {% if path == 'Typography' %}
+            <li class="active">
+          {% else %}
+            <li>
+          {% endif %}
+
+              <a href="/typography">
+                  <i class="ti-text"></i>
+                  <p>Typography</p>
+              </a>
+          </li>
+          {% if path == 'Icons' %}
+            <li class="active">
+          {% else %}
+            <li>
+          {% endif %}
+
+              <a href="/icons">
+                  <i class="ti-pencil-alt2"></i>
+                  <p>Icons</p>
+              </a>
+          </li>
+          {% if path == 'Maps' %}
+            <li class="active">
+          {% else %}
+            <li>
+          {% endif %}
+
+              <a href="/maps">
+                  <i class="ti-map"></i>
+                  <p>Maps</p>
+              </a>
+          </li>
+          {% if path == 'Notifications' %}
+            <li class="active">
+          {% else %}
+            <li>
+          {% endif %}
+
+              <a href="/notifications">
+                  <i class="ti-bell"></i>
+                  <p>Notifications</p>
+              </a>
+          </li>
+  <li class="active-pro">
+              <a href="/upgrade">
+                  <i class="ti-export"></i>
+                  <p>Upgrade to PRO</p>
+              </a>
+          </li>
+      </ul>
+</div>
+</div>
+{% endblock %}
