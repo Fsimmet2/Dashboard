@@ -22,32 +22,32 @@ class __TwigTemplate_7a63cf987cb54a92c6040b1c729973f45d334ca12db848c39e84234a035
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_385481e25f57ad62cff100e11b8f8cd1ceaf548a99f16aa0f681f89835b773f8 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_385481e25f57ad62cff100e11b8f8cd1ceaf548a99f16aa0f681f89835b773f8->enter($__internal_385481e25f57ad62cff100e11b8f8cd1ceaf548a99f16aa0f681f89835b773f8_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "user.html.twig"));
+        $__internal_57ac47fe2408876c8235ed4561d0e91b4c72981c2e985282af9b991b85e3f789 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_57ac47fe2408876c8235ed4561d0e91b4c72981c2e985282af9b991b85e3f789->enter($__internal_57ac47fe2408876c8235ed4561d0e91b4c72981c2e985282af9b991b85e3f789_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "user.html.twig"));
 
         $this->parent->display($context, array_merge($this->blocks, $blocks));
         
-        $__internal_385481e25f57ad62cff100e11b8f8cd1ceaf548a99f16aa0f681f89835b773f8->leave($__internal_385481e25f57ad62cff100e11b8f8cd1ceaf548a99f16aa0f681f89835b773f8_prof);
+        $__internal_57ac47fe2408876c8235ed4561d0e91b4c72981c2e985282af9b991b85e3f789->leave($__internal_57ac47fe2408876c8235ed4561d0e91b4c72981c2e985282af9b991b85e3f789_prof);
 
     }
 
     // line 2
     public function block_title($context, array $blocks = array())
     {
-        $__internal_78c6c5ffda4385d4aab3c1f17cf0c3ed3d8cc3a22d410291d376fad2e70e3c82 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_78c6c5ffda4385d4aab3c1f17cf0c3ed3d8cc3a22d410291d376fad2e70e3c82->enter($__internal_78c6c5ffda4385d4aab3c1f17cf0c3ed3d8cc3a22d410291d376fad2e70e3c82_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "title"));
+        $__internal_867e673697ef450301d1087a6f00477af4f33abc4e46a0400bfab245f445a50e = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_867e673697ef450301d1087a6f00477af4f33abc4e46a0400bfab245f445a50e->enter($__internal_867e673697ef450301d1087a6f00477af4f33abc4e46a0400bfab245f445a50e_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "title"));
 
         echo "Paper Dashboard by Creative Tim";
         
-        $__internal_78c6c5ffda4385d4aab3c1f17cf0c3ed3d8cc3a22d410291d376fad2e70e3c82->leave($__internal_78c6c5ffda4385d4aab3c1f17cf0c3ed3d8cc3a22d410291d376fad2e70e3c82_prof);
+        $__internal_867e673697ef450301d1087a6f00477af4f33abc4e46a0400bfab245f445a50e->leave($__internal_867e673697ef450301d1087a6f00477af4f33abc4e46a0400bfab245f445a50e_prof);
 
     }
 
     // line 4
     public function block_body($context, array $blocks = array())
     {
-        $__internal_7524b719ec843f81a3171522b9ceec7d37ed4cab248eff600ee4fa9ff4b39e67 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_7524b719ec843f81a3171522b9ceec7d37ed4cab248eff600ee4fa9ff4b39e67->enter($__internal_7524b719ec843f81a3171522b9ceec7d37ed4cab248eff600ee4fa9ff4b39e67_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
+        $__internal_894b843e6ad36dc2484083347a7028d1cb788c0ae94bc50c6db15a3e77601369 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_894b843e6ad36dc2484083347a7028d1cb788c0ae94bc50c6db15a3e77601369->enter($__internal_894b843e6ad36dc2484083347a7028d1cb788c0ae94bc50c6db15a3e77601369_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
 
         // line 5
         echo "
@@ -255,7 +255,7 @@ But that's the difference in our opinions.</textarea>
 
 ";
         
-        $__internal_7524b719ec843f81a3171522b9ceec7d37ed4cab248eff600ee4fa9ff4b39e67->leave($__internal_7524b719ec843f81a3171522b9ceec7d37ed4cab248eff600ee4fa9ff4b39e67_prof);
+        $__internal_894b843e6ad36dc2484083347a7028d1cb788c0ae94bc50c6db15a3e77601369->leave($__internal_894b843e6ad36dc2484083347a7028d1cb788c0ae94bc50c6db15a3e77601369_prof);
 
     }
 
@@ -484,6 +484,6 @@ But that's the difference in our opinions.</textarea>
 
 
 {% endblock %}
-", "user.html.twig", "/home/floriane/dashboard/templates/user.html.twig");
+", "user.html.twig", "/home/floriane/Dashboard/templates/user.html.twig");
     }
 }

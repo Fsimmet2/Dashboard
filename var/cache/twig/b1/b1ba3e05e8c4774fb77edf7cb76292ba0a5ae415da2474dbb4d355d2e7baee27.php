@@ -15,8 +15,8 @@ class __TwigTemplate_931e700a1a24a1cae5355a5d345e79f3700118f2456b05e08977844b146
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_1674e752fc08e4342931242fca34daba0e70fba1cb3b51f0ecae51feba8adeee = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_1674e752fc08e4342931242fca34daba0e70fba1cb3b51f0ecae51feba8adeee->enter($__internal_1674e752fc08e4342931242fca34daba0e70fba1cb3b51f0ecae51feba8adeee_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@Twig/Exception/exception.html.twig"));
+        $__internal_c4f0cd88377982a2a0b7ab79a1b230d9d1fe08cc7cdcca6c3d83c5f5fe0ad768 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_c4f0cd88377982a2a0b7ab79a1b230d9d1fe08cc7cdcca6c3d83c5f5fe0ad768->enter($__internal_c4f0cd88377982a2a0b7ab79a1b230d9d1fe08cc7cdcca6c3d83c5f5fe0ad768_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@Twig/Exception/exception.html.twig"));
 
         // line 1
         echo "<div class=\"exception-summary ";
@@ -341,7 +341,7 @@ class __TwigTemplate_931e700a1a24a1cae5355a5d345e79f3700118f2456b05e08977844b146
 </div>
 ";
         
-        $__internal_1674e752fc08e4342931242fca34daba0e70fba1cb3b51f0ecae51feba8adeee->leave($__internal_1674e752fc08e4342931242fca34daba0e70fba1cb3b51f0ecae51feba8adeee_prof);
+        $__internal_c4f0cd88377982a2a0b7ab79a1b230d9d1fe08cc7cdcca6c3d83c5f5fe0ad768->leave($__internal_c4f0cd88377982a2a0b7ab79a1b230d9d1fe08cc7cdcca6c3d83c5f5fe0ad768_prof);
 
     }
 
@@ -464,6 +464,6 @@ class __TwigTemplate_931e700a1a24a1cae5355a5d345e79f3700118f2456b05e08977844b146
         {% endif %}
     </div>
 </div>
-", "@Twig/Exception/exception.html.twig", "/home/floriane/dashboard/vendor/symfony/twig-bundle/Resources/views/Exception/exception.html.twig");
+", "@Twig/Exception/exception.html.twig", "/home/floriane/Dashboard/vendor/symfony/twig-bundle/Resources/views/Exception/exception.html.twig");
     }
 }

@@ -15,8 +15,8 @@ class __TwigTemplate_44d7f6cb2fdaf15c761a29155c0f031c1c5fdf76e90bdde21dcbb29a9b8
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_88ae9b851f76d169966698a8071d2e421dcb166708579d25ab1f814299322938 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_88ae9b851f76d169966698a8071d2e421dcb166708579d25ab1f814299322938->enter($__internal_88ae9b851f76d169966698a8071d2e421dcb166708579d25ab1f814299322938_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@Twig/Exception/traces.txt.twig"));
+        $__internal_dd87fb82f4987c328036955753ee1c3532eabdc30254c76f5ef4ff36ff4efcfe = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_dd87fb82f4987c328036955753ee1c3532eabdc30254c76f5ef4ff36ff4efcfe->enter($__internal_dd87fb82f4987c328036955753ee1c3532eabdc30254c76f5ef4ff36ff4efcfe_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@Twig/Exception/traces.txt.twig"));
 
         // line 1
         if (twig_length_filter($this->env, twig_get_attribute($this->env, $this->getSourceContext(), (isset($context["exception"]) || array_key_exists("exception", $context) ? $context["exception"] : (function () { throw new Twig_Error_Runtime('Variable "exception" does not exist.', 1, $this->getSourceContext()); })()), "trace", array()))) {
@@ -55,7 +55,7 @@ class __TwigTemplate_44d7f6cb2fdaf15c761a29155c0f031c1c5fdf76e90bdde21dcbb29a9b8
 ";
         }
         
-        $__internal_88ae9b851f76d169966698a8071d2e421dcb166708579d25ab1f814299322938->leave($__internal_88ae9b851f76d169966698a8071d2e421dcb166708579d25ab1f814299322938_prof);
+        $__internal_dd87fb82f4987c328036955753ee1c3532eabdc30254c76f5ef4ff36ff4efcfe->leave($__internal_dd87fb82f4987c328036955753ee1c3532eabdc30254c76f5ef4ff36ff4efcfe_prof);
 
     }
 
@@ -88,6 +88,6 @@ class __TwigTemplate_44d7f6cb2fdaf15c761a29155c0f031c1c5fdf76e90bdde21dcbb29a9b8
 {% endfor %}
 </pre>
 {% endif %}
-", "@Twig/Exception/traces.txt.twig", "/home/floriane/dashboard/vendor/symfony/twig-bundle/Resources/views/Exception/traces.txt.twig");
+", "@Twig/Exception/traces.txt.twig", "/home/floriane/Dashboard/vendor/symfony/twig-bundle/Resources/views/Exception/traces.txt.twig");
     }
 }

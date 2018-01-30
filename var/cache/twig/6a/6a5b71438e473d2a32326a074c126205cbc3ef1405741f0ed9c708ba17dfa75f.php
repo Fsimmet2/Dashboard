@@ -15,8 +15,8 @@ class __TwigTemplate_2b942863de9f6b96b81cb5c77e10fb38f0b7e822bae25bb0781a868487d
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_c2485015eebab1292432f6b026823cb7925b73bc843ff564ef018729769aff91 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_c2485015eebab1292432f6b026823cb7925b73bc843ff564ef018729769aff91->enter($__internal_c2485015eebab1292432f6b026823cb7925b73bc843ff564ef018729769aff91_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@Twig/Exception/traces.html.twig"));
+        $__internal_b48029f3f17eca964c107de32d9760b37720637ba547f5f48b48c35ba361e03e = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_b48029f3f17eca964c107de32d9760b37720637ba547f5f48b48c35ba361e03e->enter($__internal_b48029f3f17eca964c107de32d9760b37720637ba547f5f48b48c35ba361e03e_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@Twig/Exception/traces.html.twig"));
 
         // line 1
         echo "<div class=\"trace trace-as-html\">
@@ -103,7 +103,7 @@ class __TwigTemplate_2b942863de9f6b96b81cb5c77e10fb38f0b7e822bae25bb0781a868487d
 </div>
 ";
         
-        $__internal_c2485015eebab1292432f6b026823cb7925b73bc843ff564ef018729769aff91->leave($__internal_c2485015eebab1292432f6b026823cb7925b73bc843ff564ef018729769aff91_prof);
+        $__internal_b48029f3f17eca964c107de32d9760b37720637ba547f5f48b48c35ba361e03e->leave($__internal_b48029f3f17eca964c107de32d9760b37720637ba547f5f48b48c35ba361e03e_prof);
 
     }
 
@@ -157,6 +157,6 @@ class __TwigTemplate_2b942863de9f6b96b81cb5c77e10fb38f0b7e822bae25bb0781a868487d
         </div>
     </div>
 </div>
-", "@Twig/Exception/traces.html.twig", "/home/floriane/dashboard/vendor/symfony/twig-bundle/Resources/views/Exception/traces.html.twig");
+", "@Twig/Exception/traces.html.twig", "/home/floriane/Dashboard/vendor/symfony/twig-bundle/Resources/views/Exception/traces.html.twig");
     }
 }

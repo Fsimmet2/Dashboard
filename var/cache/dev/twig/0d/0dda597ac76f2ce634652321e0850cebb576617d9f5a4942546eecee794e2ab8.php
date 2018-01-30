@@ -15,8 +15,8 @@ class __TwigTemplate_68b1fc657ca75cd71441552f8fa4c944cb479d2f07568cfbfc496f43327
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_1e9b220138b5ceb508f599cd51f37c8a3487613cdada0d9e3fdaeb98730bd884 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_1e9b220138b5ceb508f599cd51f37c8a3487613cdada0d9e3fdaeb98730bd884->enter($__internal_1e9b220138b5ceb508f599cd51f37c8a3487613cdada0d9e3fdaeb98730bd884_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@Twig/Exception/trace.html.twig"));
+        $__internal_04d413afb4044667431378451af8a3eafe51a444b0ffc13b48e74fd550b8d362 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_04d413afb4044667431378451af8a3eafe51a444b0ffc13b48e74fd550b8d362->enter($__internal_04d413afb4044667431378451af8a3eafe51a444b0ffc13b48e74fd550b8d362_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@Twig/Exception/trace.html.twig"));
 
         // line 1
         echo "<div class=\"trace-line-header break-long-words ";
@@ -117,7 +117,7 @@ class __TwigTemplate_68b1fc657ca75cd71441552f8fa4c944cb479d2f07568cfbfc496f43327
 ";
         }
         
-        $__internal_1e9b220138b5ceb508f599cd51f37c8a3487613cdada0d9e3fdaeb98730bd884->leave($__internal_1e9b220138b5ceb508f599cd51f37c8a3487613cdada0d9e3fdaeb98730bd884_prof);
+        $__internal_04d413afb4044667431378451af8a3eafe51a444b0ffc13b48e74fd550b8d362->leave($__internal_04d413afb4044667431378451af8a3eafe51a444b0ffc13b48e74fd550b8d362_prof);
 
     }
 
@@ -171,6 +171,6 @@ class __TwigTemplate_68b1fc657ca75cd71441552f8fa4c944cb479d2f07568cfbfc496f43327
         })|raw }}
     </div>
 {% endif %}
-", "@Twig/Exception/trace.html.twig", "/home/floriane/dashboard/vendor/symfony/twig-bundle/Resources/views/Exception/trace.html.twig");
+", "@Twig/Exception/trace.html.twig", "/home/floriane/Dashboard/vendor/symfony/twig-bundle/Resources/views/Exception/trace.html.twig");
     }
 }

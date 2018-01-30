@@ -16,20 +16,20 @@ class __TwigTemplate_5c1b4b6f6f69344baed5dbf8c1c3c05b06a92e253933ba3000b4de0dad7
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_aafce7538ff4223a122a35f7e1a88708d4ae28535c659039be11609ec99def99 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_aafce7538ff4223a122a35f7e1a88708d4ae28535c659039be11609ec99def99->enter($__internal_aafce7538ff4223a122a35f7e1a88708d4ae28535c659039be11609ec99def99_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "head.html.twig"));
+        $__internal_89332e768d422e35988f422034c9b6357b6d0a1d207598e1be673547e9f80cf8 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_89332e768d422e35988f422034c9b6357b6d0a1d207598e1be673547e9f80cf8->enter($__internal_89332e768d422e35988f422034c9b6357b6d0a1d207598e1be673547e9f80cf8_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "head.html.twig"));
 
         // line 1
         $this->displayBlock('stylesheet', $context, $blocks);
         
-        $__internal_aafce7538ff4223a122a35f7e1a88708d4ae28535c659039be11609ec99def99->leave($__internal_aafce7538ff4223a122a35f7e1a88708d4ae28535c659039be11609ec99def99_prof);
+        $__internal_89332e768d422e35988f422034c9b6357b6d0a1d207598e1be673547e9f80cf8->leave($__internal_89332e768d422e35988f422034c9b6357b6d0a1d207598e1be673547e9f80cf8_prof);
 
     }
 
     public function block_stylesheet($context, array $blocks = array())
     {
-        $__internal_bd8f5fa7b22bf43bdef25a448280636418fc5854fb74186523bf02320a5a7042 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_bd8f5fa7b22bf43bdef25a448280636418fc5854fb74186523bf02320a5a7042->enter($__internal_bd8f5fa7b22bf43bdef25a448280636418fc5854fb74186523bf02320a5a7042_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "stylesheet"));
+        $__internal_78192ce92440ad58433f22ba275950f648f2a7c246249af4cd37018ec093e8bd = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_78192ce92440ad58433f22ba275950f648f2a7c246249af4cd37018ec093e8bd->enter($__internal_78192ce92440ad58433f22ba275950f648f2a7c246249af4cd37018ec093e8bd_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "stylesheet"));
 
         // line 2
         echo "<link rel=\"apple-touch-icon\" sizes=\"76x76\" href=\"assets/img/apple-icon.png\">
@@ -62,7 +62,7 @@ class __TwigTemplate_5c1b4b6f6f69344baed5dbf8c1c3c05b06a92e253933ba3000b4de0dad7
   <link href=\"assets/css/themify-icons.css\" rel=\"stylesheet\">
 ";
         
-        $__internal_bd8f5fa7b22bf43bdef25a448280636418fc5854fb74186523bf02320a5a7042->leave($__internal_bd8f5fa7b22bf43bdef25a448280636418fc5854fb74186523bf02320a5a7042_prof);
+        $__internal_78192ce92440ad58433f22ba275950f648f2a7c246249af4cd37018ec093e8bd->leave($__internal_78192ce92440ad58433f22ba275950f648f2a7c246249af4cd37018ec093e8bd_prof);
 
     }
 
@@ -108,6 +108,6 @@ class __TwigTemplate_5c1b4b6f6f69344baed5dbf8c1c3c05b06a92e253933ba3000b4de0dad7
   <link href='https://fonts.googleapis.com/css?family=Muli:400,300' rel='stylesheet' type='text/css'>
   <link href=\"assets/css/themify-icons.css\" rel=\"stylesheet\">
 {% endblock %}
-", "head.html.twig", "/home/floriane/dashboard/templates/head.html.twig");
+", "head.html.twig", "/home/floriane/Dashboard/templates/head.html.twig");
     }
 }

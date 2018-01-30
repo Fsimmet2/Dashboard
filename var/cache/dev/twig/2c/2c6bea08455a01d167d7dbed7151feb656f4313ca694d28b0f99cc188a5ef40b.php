@@ -15,8 +15,8 @@ class __TwigTemplate_5aed834770f0dc66d4a470cf959503f9ca1d7e98e6f78d23327a2bf0f0f
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_aa4878df65f65cdd833f15f99f35a78c52b6145fc629b233f4e475ecdbf30c06 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_aa4878df65f65cdd833f15f99f35a78c52b6145fc629b233f4e475ecdbf30c06->enter($__internal_aa4878df65f65cdd833f15f99f35a78c52b6145fc629b233f4e475ecdbf30c06_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "register.html.twig"));
+        $__internal_09c917b8278806215452dbc8806ac9ef75079bb28ea668eb6aea8def33794984 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_09c917b8278806215452dbc8806ac9ef75079bb28ea668eb6aea8def33794984->enter($__internal_09c917b8278806215452dbc8806ac9ef75079bb28ea668eb6aea8def33794984_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "register.html.twig"));
 
         // line 1
         echo "
@@ -51,7 +51,7 @@ class __TwigTemplate_5aed834770f0dc66d4a470cf959503f9ca1d7e98e6f78d23327a2bf0f0f
         echo "
 ";
         
-        $__internal_aa4878df65f65cdd833f15f99f35a78c52b6145fc629b233f4e475ecdbf30c06->leave($__internal_aa4878df65f65cdd833f15f99f35a78c52b6145fc629b233f4e475ecdbf30c06_prof);
+        $__internal_09c917b8278806215452dbc8806ac9ef75079bb28ea668eb6aea8def33794984->leave($__internal_09c917b8278806215452dbc8806ac9ef75079bb28ea668eb6aea8def33794984_prof);
 
     }
 
@@ -84,6 +84,6 @@ class __TwigTemplate_5aed834770f0dc66d4a470cf959503f9ca1d7e98e6f78d23327a2bf0f0f
     <button type=\"submit\">Register!</button>
 \t\t</div>
 {{ form_end(form) }}
-", "register.html.twig", "/home/floriane/dashboard/templates/register.html.twig");
+", "register.html.twig", "/home/floriane/Dashboard/templates/register.html.twig");
     }
 }
